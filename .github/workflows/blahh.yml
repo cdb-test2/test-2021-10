@@ -1,0 +1,11 @@
+name: "Vandalism workflow"
+
+on:
+  pull_request_target:
+
+jobs:
+  vandalize-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Worlf
+        run: echo HI
